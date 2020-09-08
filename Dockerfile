@@ -1,5 +1,6 @@
 # 基础镜像
-FROM jiftle/dev-env-base:1.0.2
+# FROM jiftle/dev-env-base:1.0.2
+FROM jiftle/docker-for-dev-2:latest
 
 # 维护者
 MAINTAINER jiftle "lixugood@126.com"
