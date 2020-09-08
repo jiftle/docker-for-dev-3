@@ -32,7 +32,7 @@ echo 'export TERM="xterm-256color"' >> /etc/my.bashrc \
 echo '' >> /etc/my.bashrc
 
 # ------------- 安装emacs ---------------------
-RUN cd ${INST_DIR}/app/emacs && make install
+# RUN cd ${INST_DIR}/app/emacs && make install
 
 # *************************** 清理临时文件 **************************
 RUN rm -rf ${INST_DIR} \
