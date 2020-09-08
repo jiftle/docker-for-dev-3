@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/john/workspace/gowp/keyhsmclient/proto/packet.go'
+let g:netrw_dirhist_2='/home/john/git/microserv/tizi'
+let g:netrw_dirhist_1='/home/john/git/coding_net/grocery/dailylog'
+let g:netrw_dirhist_0='/root/.emacs.d/elpa/yasnippet-snippets-20200526.907/snippets'
+let g:netrw_dirhist_9='/home/john/git/coding_net/grocery/dailylog'
+let g:netrw_dirhist_8='/home/john/git/github/gitmdblog'
+let g:netrw_dirhist_7='/home/john/git/github/gitmdblog/conf'
+let g:netrw_dirhist_6='/home/john/git/github/gitmdblog'
+let g:netrw_dirhist_5='/home/john/git/github/gitmdblog/config'
+let g:netrw_dirhist_4='/home/john/git/github/gitmdblog'
