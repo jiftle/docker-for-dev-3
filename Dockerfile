@@ -31,8 +31,11 @@ echo 'export TERM="xterm-256color"' >> /etc/my.bashrc \
 && \
 echo '' >> /etc/my.bashrc
 
+
 # ------------- 安装emacs ---------------------
-RUN cd ${INST_DIR}/app/emacs && make && make install
+# 修改内核参数，否则make编译失败
+RUN bash -c "echo 0 > /proc/sys/kernel/randomize_va_space" \
+cd ${INST_DIR}/app/emacs && make && make install
 
 # *************************** 清理临时文件 **************************
 RUN rm -rf ${INST_DIR} \
